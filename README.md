@@ -26,13 +26,19 @@ Dispatch is code block which works on fifo based execution.
     
     
  For playing the sound:
-    let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
-    player = try! AVAudioPlayer(contentsOf: url!)
-    player.play()
+  let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
+  player = try! AVAudioPlayer(contentsOf: url!)
+  player.play()
     
 Bundle→ A representation of the code and resources stored in a bundle directory on disk.
 Main → is basically use to locate the sound file resource
 It is basically doing to locate the resouces C.wav which is present in the project→ sound Folder where it is declare in our project.
 
+![Simulator Screen Shot - iPhone 13 Pro Max - 2022-02-10 at 09 21 06](https://user-images.githubusercontent.com/85185631/153339269-cd78d723-fa23-42cc-9149-1a4272b7e850.png)
 
 
+
+
+https://user-images.githubusercontent.com/85185631/153339293-58f43a4e-de6e-422e-b81f-f5bab6f74889.mp4
+
+Download the project and you will hear the sounds
